@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor0: #ffffff;
+  --cor1: #fb6504;
+  --cor2: #000000;
+  --cor4: #e6dfdf;
+  --cor5: #ca5405;
+  --cor6: #1a1a1a;
+
+  --fonte-texto: "Inter", sans-serif;
+  --fonte-titulo: "Bruno Ace SC", cursive, sans-serif;
+}
+#titulo {
+  font-family: var(--fonte-titulo);
+}
+#texto {
+  font-family: var(--fonte-texto);
+}
+#section1 {
+  background-color: var(--cor1);
+}
+#nav {
+  background-color: var(--cor2);
+  font-family: var(--fonte-texto);
+}
+#hamb {
+  color: #ffffff;
+}
+#img-logo {
+  width: 30px;
+}
+#img2 {
+  width: 100px;
+  border-radius: 50%;
+}
