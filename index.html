@@ -309,7 +309,11 @@
 
       <!--Carrosel-->
       <div class="container">
-        <div id="carouselExampleCaptions" class="carousel slide">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
           <div class="carousel-indicators">
             <button
               type="button"
@@ -333,7 +337,7 @@
             ></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="5000">
               <img
                 id="img4"
                 src="img/loja1.jpg"
@@ -347,7 +351,7 @@
                 </p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="5000">
               <img
                 id="img4"
                 src="img/loja2.jpg"
@@ -361,7 +365,7 @@
                 </p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="5000">
               <img
                 id="img4"
                 src="img/loja3.jpg"
@@ -397,17 +401,22 @@
         </div>
       </div>
     </section>
-    
+
     <!--Depoimentos-->
     <section></section>
 
     <!--Contatos-->
     <section></section>
-    
+
     <!--Footer-->
     <footer id="footer2" class="container-fluid">
       <div class="row">
-        <span id="texto" class="text-center py-1"><b>Julho de 2023 <i class="fa-regular fa-copyright"></i> Wilson Czelusniaki</b></span>
+        <span id="texto" class="text-center py-1"
+          ><b
+            >Julho de 2023 <i class="fa-regular fa-copyright"></i> Wilson
+            Czelusniaki</b
+          ></span
+        >
       </div>
     </footer>
     <!--Bootstrap Js-->
