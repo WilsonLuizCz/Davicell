@@ -15,11 +15,16 @@
   --fonte-texto: "Inter", sans-serif;
   --fonte-titulo: "Bruno Ace SC", cursive, sans-serif;
 }
+#body {
+  background-color: #e6dfdf;
+}
 #titulo {
   font-family: var(--fonte-titulo);
+  color: var(--cor2);
 }
 #texto {
   font-family: var(--fonte-texto);
+  color: var(--cor2);
 }
 #section1 {
   background-color: var(--cor4);
@@ -74,7 +79,8 @@
 }
 #tituloform {
   font-family: var(--fonte-texto);
-  font-size: 32px;
+  font-size: 35px;
+  color: var(--cor2);
 }
 #section2 {
   background-color: var(--cor1);
@@ -105,4 +111,20 @@
   font-family: var(--fonte-titulo);
   color: var(--cor0);
   text-shadow: 2px 2px 1px #fb6504;
+}
+#img3 {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+}
+#section4 {
+  background-color: var(--cor6);
+}
+#containerimg {
+  background-color: var(--cor6);
+}
+#img4 {
+  width: 200px;
+  height: 450px;
 }
