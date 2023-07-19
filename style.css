@@ -22,11 +22,24 @@
   font-family: var(--fonte-texto);
 }
 #section1 {
-  background-color: var(--cor1);
+  background-color: var(--cor4);
 }
 #nav {
   background-color: var(--cor2);
   font-family: var(--fonte-texto);
+}
+#menu1 {
+  color: var(--cor0);
+}
+#menu1:hover {
+  color: var(--cor1);
+}
+#menu2 {
+  color: var(--cor2);
+  font-family: var(--fonte-texto);
+}
+#menu2:hover {
+  color: var(--cor1);
 }
 #hamb {
   color: #ffffff;
@@ -37,4 +50,59 @@
 #img2 {
   width: 100px;
   border-radius: 50%;
+}
+#texto2 {
+  font-family: var(--fonte-texto);
+  font-size: small;
+}
+#submenu-top {
+  background-color: var(--cor1);
+  color: var(--cor0);
+  font-family: var(--fonte-texto);
+  font-size: 12px;
+}
+#btn {
+  background-color: var(--cor1);
+  color: var(--cor0);
+  padding: 2px 10px;
+  margin: 0;
+  border-radius: 13px 13px;
+}
+#btn:hover {
+  background-color: var(--cor0);
+  color: var(--cor1);
+}
+#tituloform {
+  font-family: var(--fonte-texto);
+  font-size: 32px;
+}
+#section2 {
+  background-color: var(--cor1);
+}
+#btn2 {
+  background-color: rgb(8, 163, 8);
+  color: var(--cor0);
+  padding: 10px 10px;
+  margin: 0;
+  border-radius: 13px 13px;
+}
+#btn2:hover {
+  background-color: var(--cor2);
+  color: var(--cor0);
+}
+#texto3 {
+  font-family: var(--fonte-texto);
+  color: var(--cor2);
+  font-size: large;
+}
+#cor1 {
+  color: #fb6504;
+}
+#section3 {
+  background-color: #000000;
+}
+#titulo3 {
+  font-family: var(--fonte-titulo);
+  color: var(--cor0);
+  text-shadow: 2px 2px 1px #fb6504;
 }

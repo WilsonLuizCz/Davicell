@@ -39,9 +39,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!--Form submt-->
   </head>
   <body>
     <header>
+      <!--Submenu topo-->
+      <div id="submenu-top" class="container-fluid py-1">
+        <div>
+          <spam><i class="fa-solid fa-location-dot"></i> Unidade Suzano</spam>
+          <span><i class="fa-solid fa-clock ms-2"></i> Seg-Sab: 08-19h</span>
+          <span><i class="fa-solid fa-phone ms-2"></i> (11) 9999-9999</span>
+        </div>
+      </div>
+      <!--Menu-->
       <nav id="nav" class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
@@ -67,70 +77,194 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a
-                  class="nav-link active text-light"
+                  id="menu1"
+                  class="nav-link active"
                   aria-current="page"
                   href="#"
-                  >Início</a
+                  >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light text-light" href="#">Sobre</a>
+                <a id="menu1" class="nav-link" href="#">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Lojas</a>
+                <a id="menu1" class="nav-link" href="#">Lojas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Acessórios</a>
+                <a id="menu1" class="nav-link" href="#">Acessórios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Lojas</a>
+                <a id="menu1" class="nav-link" href="#">Lojas</a>
               </li>
+
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle text-light"
+                  id="menu1"
+                  class="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                >
-                  Serviços
+                  >Serviços
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Troca de Telas</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Troca de conectores</a>
+                    <a id="menu2" class="dropdown-item" href="#">Troca de Telas</a>
+                  </li>
+
+                  <li>
+                    <a id="menu2" class="dropdown-item" href="#"
+                      >Troca de conectores</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Reparos em placa</a>
+                    <a id="menu2" class="dropdown-item" href="#">Reparos em placa</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Software</a>
+                    <a id="menu2" class="dropdown-item" href="#">Software</a>
                   </li>
                 </ul>
               </li>
-              
+              <li class="nav-item">
+                <a id="menu1" class="nav-link" href="#"
+                  ><button id="btn" class="btn btn">ORÇAMENTO ONLINE</button></a
+                >
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+
+    <!--Section 1-->
     <section id="section1" class="container-fluid">
-      <div class="container text-center">
-        <img
-          id="img2"
-          class="img-fluid my-5"
-          src="img/davicell-logo-black.png"
-          alt="logo-davicell"
-        />
-        <h1 id="titulo" class="text-center text-light">Davicell</h1>
-        <p id="texto" class="p-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ad sed
-          et nulla, voluptate deserunt deleniti officia harum doloribus
-          assumenda cupiditate! Iste quidem consequuntur hic incidunt, ullam
-          tempora alias a!
-        </p>
+      <div class="row">
+        <!--Sobre-->
+        <div class="col-sm-12 col-md-4 col-lg-6 container text-center">
+          <h1 id="titulo" class="mt-5">Sobre</h1>
+          <img
+            id="img2"
+            class="img-fluid mt-5 mb-3"
+            src="img/davicell-logo-black.png"
+            alt="logo-davicell"
+          />
+          <h4 id="titulo" class="text-center">Davicell</h4>
+          <p id="texto" class="p-4 text-start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ad
+            sed et nulla, voluptate deserunt deleniti officia harum doloribus
+            assumenda cupiditate! Iste quidem consequuntur hic incidunt, ullam
+            tempora alias a!
+          </p>
+          <div class="row">
+            <div class="col"><i id="cor1" class="fa-solid fa-dollar-sign fa-2xl mb-4"></i><p>Cobrimos qualquer orçamento</p></div>
+            <div class="col"><i id="cor1" class="fa-regular fa-thumbs-up fa-2xl mb-4"></i><p>Técnicos qualificados</p></div>
+            <div class="col"><i id="cor1" class="fa-regular fa-clock fa-2xl mb-4"></i> <p>Atendimento personalizado</p></div>
+          </div>
+        </div>
+
+        <!--Form-->
+        <div class="col">
+          <div class="container col-sm-12 col-md-8 col-lg-8">
+            <h2 id="tituloform" class="my-5">
+              Faça um orçamento sem compromisso
+            </h2>
+            <form action="https://formsubmit.co/your@email.com" method="POST">
+              <label id="texto" for="name" class="form-label">Nome :</label>
+              <br />
+              <input
+                aria-describedby="name"
+                class="form-control"
+                type="text"
+                name="name"
+                required
+              />
+              <br />
+            
+              <label id="texto" for="email" class="form-label">Email :</label>
+              <br />
+              <input
+                aria-describedby="email"
+                class="form-control"
+                type="email"
+                name="email"
+                required
+              />
+              <br />
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Digite sua menssagem :</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+              <button id="btn" class="btn btn my-4 " type="submit">
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
+    <!--Section 2-->
+
+    <section id="section2" class="container-fluid ">
+      <div class="container">
+        <h2  id="tituloform" class="text-center pt-5 text-light">Atendimento via Whatsapp</h2>
+        <p id="texto3" class="text-start p-4">
+          <b>Atendimento rápido e seguro direto com o técnico via whatsapp temos experiência em todas as marcas e modelos!</b>
+        </p>
+        <div class="text-center">
+          <buttonc id="btn2" class="btn mb-5"><i class="fa-brands fa-whatsapp"></i> QUERO CONSERTAR MEU CELULAR</button>
+        </div>
+      </div>
+    </section>
+
+    <!--Section 3-->
+    <section id="section3" class="container-fluid">
+
+      <div class="container ">
+        <h2 id="titulo3" class="text-center py-5">Conheça nossos serviços</h2>
+
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+            <i id="cor1" class="fa-solid fa-mobile fa-2xl mb-4"></i>
+            <p class="mb-5 text-light" id="texto"><b>Troca de telas</b></p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+            <i id="cor1" class="fa-solid fa-bolt fa-2xl mb-4"></i>
+            <p  class="mb-5 text-light" id="texto"><b>Troca de conector</b></p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+            <i id="cor1" class="fa-solid fa-battery-quarter fa-2xl mb-4"></i>
+            <p  class="mb-5 text-light" id="texto"><b>Troca de Baterias</b></p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+            <i id="cor1" class="fa-sharp fa-solid fa-microchip fa-2xl mb-4"></i>
+            <p  class="mb-5 text-light" id="texto"><b>Reparos em placa</b></p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+            <i id="cor1" class="fa-brands fa-android fa-2xl mb-4"></i>
+            <p  class="mb-5 text-light" id="texto"><b>Restauração de software</b></p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+            <i id="cor1" class="fa-solid fa-droplet fa-2xl mb-4"></i>
+            <p  class="mb-5 text-light" id="texto"><b>Desoxidação</b></p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--Equipe-->
+    <section></section>
+    <!--Lojas-->
+    <section></section>
+    <!--Depoimentos-->
+    <section></section>
+    <!--Contatos-->
+    <section></section>
 
     <!--Bootstrap Js-->
     <script
