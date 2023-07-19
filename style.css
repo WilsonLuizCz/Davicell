@@ -125,3 +125,7 @@
   width: 200px;
   height: 450px;
 }
+#footer2 {
+  background-color: var(--cor2);
+  font-size: small;
+}
