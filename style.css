@@ -16,7 +16,12 @@
   --fonte-titulo: "Bruno Ace SC", cursive, sans-serif;
 }
 #body {
-  background-color: #e6dfdf;
+  background-color: #1a1a1a;
+}
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 #titulo {
   font-family: var(--fonte-titulo);
@@ -48,9 +53,13 @@
 }
 #hamb {
   color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 #img-logo {
-  width: 30px;
+  width: 20px;
+  margin: 0;
+  padding: 0;
 }
 #img2 {
   width: 100px;
@@ -126,10 +135,10 @@
   height: 450px;
 }
 #footer2 {
-  background-color:#fb6504;
+  background-color: #fb6504;
   font-size: small;
 }
-#footer{
+#footer {
   background-color: #000000;
   color: #ffffff;
 }
