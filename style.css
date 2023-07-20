@@ -30,6 +30,8 @@
 #texto {
   font-family: var(--fonte-texto);
   color: var(--cor2);
+  text-align: justify;
+  line-height: 2rem;
 }
 #section1 {
   background-color: var(--cor4);
@@ -109,6 +111,9 @@
   font-family: var(--fonte-texto);
   color: var(--cor2);
   font-size: large;
+  text-align: justify;
+  line-height: 2rem;
+
 }
 #cor1 {
   color: #fb6504;
@@ -131,8 +136,9 @@
   background-color: var(--cor6);
 }
 #img4 {
-  width: 200px;
-  height: 450px;
+  height: 600px;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
 }
 #footer2 {
   background-color: #fb6504;
