@@ -136,7 +136,8 @@
   background-color: var(--cor6);
 }
 #img4 {
-  height: 600px;
+  width: auto;
+  height: 70vh;
   border: 2px solid #ffffff;
   border-radius: 8px;
 }
