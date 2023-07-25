@@ -149,3 +149,7 @@
   background-color: #000000;
   color: #ffffff;
 }
+#end {
+  background-color: #000000be;
+  border-radius: 8px;
+}
